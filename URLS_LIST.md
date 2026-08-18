@@ -4,63 +4,43 @@ This document contains all client-ready URLs for sharing, marketing campaigns, n
 
 ---
 
-## 📌 1. Primary Tab URLs (Recommended for Client)
+## 🎯 1. Client Primary URLs (Combined Tab + Anchor Deep-Links)
 
-These URLs open the page and automatically switch to the designated tab.
+These URLs switch to the requested tab **and** automatically scroll to that section.
 
-| Tab Name | Recommended Query URL (Best Choice) | Alternative Anchor URL |
-| :--- | :--- | :--- |
-| **About CRL** | `https://www.wqtma.co.nz/city-rail-link-crl?tab=about` | `https://wqtma.co.nz/city-rail-link-crl#about-crl` |
-| **Benefits of CRL** | `https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits` | `https://wqtma.co.nz/city-rail-link-crl#benifts-crl` |
-| **Train & Bus to WQ** | `https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus` | `https://wqtma.co.nz/city-rail-link-crl#trainandbus` |
-| **Walk / Bike to WQ** | `https://www.wqtma.co.nz/city-rail-link-crl?tab=walk-bike` | `https://wqtma.co.nz/city-rail-link-crl#bike` |
-| **Plan Your Trip** | `https://www.wqtma.co.nz/city-rail-link-crl?tab=plan-trip` | `https://wqtma.co.nz/city-rail-link-crl#plan-your-trip` |
-
----
-
-## 🎯 2. Specific Section / Deep-Link Anchor URLs
-
-These URLs open the correct parent tab **and** scroll down directly to that specific section or video.
-
-| Target Section | Parent Tab | Direct Anchor URL | Direct Query URL |
-| :--- | :--- | :--- | :--- |
-| **CRL Briefing Video** | About CRL (Tab 1) | `https://wqtma.co.nz/city-rail-link-crl#crl-briefing-vedio` | `https://www.wqtma.co.nz/city-rail-link-crl?tab=about&section=video` |
-| **Time Savings Summary** | Benefits of CRL (Tab 2) | `https://wqtma.co.nz/city-rail-link-crl#timesavings` | `https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits&section=timesavings` |
-| **Animated Train & Bus Map** | Train & Bus (Tab 3) | `https://wqtma.co.nz/city-rail-link-crl#animated` | `https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus&section=animated` |
+| Target Section | Parent Tab | Combined URL (Tab + Anchor) | Standalone Anchor URL | Standalone Tab Query |
+| :--- | :--- | :--- | :--- | :--- |
+| **CRL Briefing Video** | About CRL (`singleTab12`) | `https://www.wqtma.co.nz/city-rail-link-crl?tab=about#crl-briefing-vedio` | `https://wqtma.co.nz/city-rail-link-crl#crl-briefing-vedio` | `https://www.wqtma.co.nz/city-rail-link-crl?tab=about` |
+| **Time Savings (Red Box)** | Benefits of CRL (`singleTab13`) | `https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits#trainandbus` | `https://wqtma.co.nz/city-rail-link-crl#trainandbus` | `https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits` |
+| **Animated Map (Red Box)** | Train & Bus to WQ (`singleTab11`) | `https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus#animated` | `https://wqtma.co.nz/city-rail-link-crl#animated` | `https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus` |
+| **Walk / Bike to WQ** | Walk / Bike to WQ (`singleTab10`) | `https://www.wqtma.co.nz/city-rail-link-crl?tab=walk-bike` | `https://wqtma.co.nz/city-rail-link-crl#bike` | `https://www.wqtma.co.nz/city-rail-link-crl?tab=walk-bike` |
+| **Plan Your Trip** | Plan Your Trip (`singleTab9`) | `https://www.wqtma.co.nz/city-rail-link-crl?tab=plan-trip` | `https://wqtma.co.nz/city-rail-link-crl#plan-your-trip` | `https://www.wqtma.co.nz/city-rail-link-crl?tab=plan-trip` |
 
 ---
 
-## 📋 3. Full Quick-Copy Table for Client Delivery
+## 📋 2. Full Quick-Copy List for Client Delivery
 
 ```text
-=== MAIN TABS ===
-1. About CRL:
-   https://www.wqtma.co.nz/city-rail-link-crl?tab=about
-   https://wqtma.co.nz/city-rail-link-crl#about-crl
+=== 1. ABOUT CRL → CRL BRIEFING VIDEO ===
+https://www.wqtma.co.nz/city-rail-link-crl?tab=about#crl-briefing-vedio
+OR
+https://wqtma.co.nz/city-rail-link-crl#crl-briefing-vedio
 
-2. Benefits of CRL:
-   https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits
-   https://wqtma.co.nz/city-rail-link-crl#benifts-crl
+=== 2. BENEFITS OF CRL → TIME SAVINGS (RED BOX) ===
+https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits#trainandbus
+OR
+https://wqtma.co.nz/city-rail-link-crl#trainandbus
 
-3. Train & Bus to Wynyard Quarter:
-   https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus
-   https://wqtma.co.nz/city-rail-link-crl#trainandbus
+=== 3. TRAIN & BUS TO WQ → ANIMATED MAP (RED BOX) ===
+https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus#animated
+OR
+https://wqtma.co.nz/city-rail-link-crl#animated
 
-4. Walk / Bike to Wynyard Quarter:
-   https://www.wqtma.co.nz/city-rail-link-crl?tab=walk-bike
-   https://wqtma.co.nz/city-rail-link-crl#bike
+=== 4. WALK / BIKE TO WQ ===
+https://www.wqtma.co.nz/city-rail-link-crl?tab=walk-bike
 
-5. Plan Your Trip:
-   https://www.wqtma.co.nz/city-rail-link-crl?tab=plan-trip
-   https://wqtma.co.nz/city-rail-link-crl#plan-your-trip
-
-=== SPECIFIC SECTIONS / MEDIA ===
-6. CRL Briefing Video:
-   https://wqtma.co.nz/city-rail-link-crl#crl-briefing-vedio
-
-7. Animated Train & Bus Map Video:
-   https://wqtma.co.nz/city-rail-link-crl#animated
-
-8. Time Savings Table:
-   https://wqtma.co.nz/city-rail-link-crl#timesavings
+=== 5. PLAN YOUR TRIP ===
+https://www.wqtma.co.nz/city-rail-link-crl?tab=plan-trip
 ```
+
+

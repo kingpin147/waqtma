@@ -4,50 +4,83 @@ These are the 5 shareable URLs for newsletters, emails, and marketing campaigns.
 
 ---
 
-## 1. About CRL → Welcome Video
-> Opens the **About CRL** tab and scrolls down to the Welcome / Briefing video.
+## 1. About CRL → Welcome Video (Tab 0: `singleTab12`)
+> Opens Tab 0 and scrolls to the CRL briefing video.
 
-```
-https://www.wqtma.co.nz/city-rail-link-crl?tab=about&section=video
-```
-
----
-
-## 2. Benefits of CRL → Time Savings Section
-> Opens the **Benefits of CRL** tab and scrolls down to the Time Savings section.
-
-```
-https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits&section=timesavings
-```
+- **Anchor URL:**
+  ```
+  https://wqtma.co.nz/city-rail-link-crl#crl-briefing-vedio
+  ```
+- **Query URL:**
+  ```
+  https://www.wqtma.co.nz/city-rail-link-crl?tab=about
+  ```
 
 ---
 
-## 3. Train & Bus to WQ → Train and Bus Section
-> Opens the **Train & Bus to WQ** tab and scrolls down to the Train and Bus section.
+## 2. Benefits of CRL → Time Savings (Tab 1: `singleTab13` - RED BOX)
+> Opens Tab 1 (**Benefits of CRL**) and scrolls down to the Time Savings section.
 
-```
-https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus&section=animated
-```
+- **Recommended URL (Tab Query + Anchor):**
+  ```
+  https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits#trainandbus
+  ```
+- **Query URL (Same format as Walk-Bike & Plan-Trip):**
+  ```
+  https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits
+  ```
+- **Direct Anchor URL:**
+  ```
+  https://wqtma.co.nz/city-rail-link-crl#trainandbus
+  ```
 
 ---
 
-## 4. Walk / Bike to WQ ✅
-> Opens the **Walk / Bike to WQ** tab. *(Confirmed working)*
+## 3. Train & Bus to WQ → Animated Map (Tab 2: `singleTab11` - RED BOX)
+> Opens Tab 2 (**Train & Bus to WQ**) and scrolls down to the Animated Train & Bus Map video.
 
-```
-https://www.wqtma.co.nz/city-rail-link-crl?tab=walk-bike
-```
+- **Recommended URL (Tab Query + Anchor):**
+  ```
+  https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus#animated
+  ```
+- **Query URL (Same format as Walk-Bike & Plan-Trip):**
+  ```
+  https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus
+  ```
+- **Direct Anchor URL:**
+  ```
+  https://wqtma.co.nz/city-rail-link-crl#animated
+  ```
 
 ---
 
-## 5. Plan Your Trip ✅
-> Opens the **Plan Your Trip** tab. *(Confirmed working)*
+## 4. Walk / Bike to WQ (Tab 3: `singleTab10`) ✅
+> Opens Tab 3 (**Walk / Bike to WQ**).
 
-```
-https://www.wqtma.co.nz/city-rail-link-crl?tab=plan-trip
-```
+- **Query URL:**
+  ```
+  https://www.wqtma.co.nz/city-rail-link-crl?tab=walk-bike
+  ```
+- **Anchor URL:**
+  ```
+  https://wqtma.co.nz/city-rail-link-crl#bike
+  ```
+
+---
+
+## 5. Plan Your Trip (Tab 4: `singleTab9`) ✅
+> Opens Tab 4 (**Plan Your Trip**).
+
+- **Query URL:**
+  ```
+  https://www.wqtma.co.nz/city-rail-link-crl?tab=plan-trip
+  ```
+- **Anchor URL:**
+  ```
+  https://wqtma.co.nz/city-rail-link-crl#plan-your-trip
+  ```
 
 ---
 
 *Last updated: August 2026*
-*URLs 4 & 5 confirmed working. URLs 1, 2 & 3 pending Wix element ID verification for scroll-to-section.*
+
