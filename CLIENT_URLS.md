@@ -1,58 +1,15 @@
-# WQTMA – City Rail Link (CRL) Client URLs
+Verification Checklist
+Once saved and published, all of these URL formats will automatically switch tabs and pinpoint scroll to the container boxes:
 
-These are the 5 shareable URLs for newsletters, emails, and marketing campaigns.
+https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus#animated
+https://wqtma.co.nz/city-rail-link-crl#animated
+https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits#trainandbus
+https://wqtma.co.nz/city-rail-link-crl#trainandbus
+https://www.wqtma.co.nz/city-rail-link-crl#crl-briefing-vedio
+The Velo code in 
 
----
-
-## 1. About CRL → Welcome Video (Tab 0: `singleTab12`)
-> Opens Tab 0 and scrolls to the CRL briefing video.
-
-- **Anchor URL:**
-  ```
-  https://wqtma.co.nz/city-rail-link-crl#crl-briefing-vedio
-  ```
-- **Query URL:**
-  ```
-  https://www.wqtma.co.nz/city-rail-link-crl?tab=about
-  ```
-
----
-
-## 2. Benefits of CRL → Time Savings (Tab 1: `singleTab13` - RED BOX)
-> Opens Tab 1 (**Benefits of CRL**) and scrolls down to the Time Savings section.
-
-- **Recommended URL (Tab Query + Anchor):**
-  ```
-  https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits#trainandbus
-  ```
-- **Query URL (Same format as Walk-Bike & Plan-Trip):**
-  ```
-  https://www.wqtma.co.nz/city-rail-link-crl?tab=benefits
-  ```
-- **Direct Anchor URL:**
-  ```
-  https://wqtma.co.nz/city-rail-link-crl#trainandbus
-  ```
-
----
-
-## 3. Train & Bus to WQ → Animated Map (Tab 2: `singleTab11` - RED BOX)
-> Opens Tab 2 (**Train & Bus to WQ**) and scrolls down to the Animated Train & Bus Map video.
-
-- **Recommended URL (Tab Query + Anchor):**
-  ```
-  https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus#animated
-  ```
-- **Query URL (Same format as Walk-Bike & Plan-Trip):**
-  ```
-  https://www.wqtma.co.nz/city-rail-link-crl?tab=train-bus
-  ```
-- **Direct Anchor URL:**
-  ```
-  https://wqtma.co.nz/city-rail-link-crl#animated
-  ```
-
----
+city_rail_link.js
+ is updated and ready to handle these container boxes!
 
 ## 4. Walk / Bike to WQ (Tab 3: `singleTab10`) ✅
 > Opens Tab 3 (**Walk / Bike to WQ**).
@@ -83,4 +40,7 @@ These are the 5 shareable URLs for newsletters, emails, and marketing campaigns.
 ---
 
 *Last updated: August 2026*
+
+
+
 
